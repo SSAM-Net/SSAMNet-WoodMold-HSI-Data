@@ -53,5 +53,4 @@ The complete dataset contains 108,000 pixel spectra:
 
 The pooled pixel-spectrum records were divided into calibration and test sets at an 80:20 ratio using stratified random sampling by mold-severity class with a fixed random seed of 42.
 
-The split was performed at the individual pixel-record level. The test dataset should therefore be interpreted as a pixel-level hold-out test set.
 
