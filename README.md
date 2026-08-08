@@ -51,6 +51,6 @@ The complete dataset contains 108,000 pixel spectra:
 
 ## Dataset partitioning
 
-The pooled pixel-spectrum records were divided into calibration and test sets at an 80:20 ratio using stratified random sampling by mold-severity class with a fixed random seed of 42.
+Each wood-species dataset was divided independently at the individual pixel-record level into an 80% calibration subset and a 20% hold-out test subset using stratified random sampling by mold-severity class with a fixed random seed of 42. The resulting species-specific calibration subsets and test subsets were then concatenated to create the released calibration and test files.
 
 
